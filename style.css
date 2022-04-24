@@ -1,0 +1,17 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-danger:hover{
+background-color: rgb(0, 0, 0);
+border-color: rgb(255, 0, 119);
+color: rgb(255, 118, 136);
+}
+canvas{
+    animation-name: Nightmare;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Nightmare{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px rgb(255, 0, 106);}
+}
